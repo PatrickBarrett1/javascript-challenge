@@ -18,6 +18,7 @@ body {
   overflow: auto;
 }
 
+
 /* The footer is positioned at the bottom of the page */
 .footer {
   position: absolute;
@@ -63,6 +64,10 @@ body {
 /* Adding styles to the aside and filter form */
 .ufo-form {
   margin-top: 50px;
+}
+
+.filters .panel-heading {
+  background-color: rgb(0, 0, 54);
 }
 
 .filters .panel-body {
@@ -149,7 +154,7 @@ tbody > tr:nth-child(2n+1) > td, tbody > tr:nth-child(2n+1) > th {
 /* input placeholder color changes */
 .form-control::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  color: #8e979f;
+  color: #83a0b9;
 }
 
 .form-control::-moz-placeholder {
